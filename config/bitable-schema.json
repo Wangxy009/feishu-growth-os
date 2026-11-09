@@ -1,0 +1,16 @@
+{
+  "workspace": "成长数据库",
+  "tables": [
+    { "name": "每日任务", "fields": ["任务名称:text", "日期:date", "领域:select", "预计分钟:number", "实际分钟:number", "优先级:select", "状态:select", "是否需要确认:checkbox", "来源:text"] },
+    { "name": "学习记录", "fields": ["记录名称:text", "日期:date", "科目:select", "学习内容:text", "分钟数:number", "产出:text", "复盘:text"] },
+    { "name": "考研进度", "fields": ["学习单元:text", "目标院校:text", "科目:select", "章节:text", "阶段:select", "题量:number", "正确率:number", "下次复习:date"] },
+    { "name": "英语训练", "fields": ["训练名称:text", "日期:date", "类型:select", "实际完成量:number", "正确率:number", "材料来源:url", "错题与复盘:text"] },
+    { "name": "论文研究", "fields": ["事项或文献:text", "类型:select", "研究方向:text", "来源链接:url", "状态:select", "阅读笔记:text", "下一步:text"] },
+    { "name": "技能项目", "fields": ["项目名称:text", "技能方向:select", "项目阶段:select", "GitHub链接:url", "可展示产出:text", "下一步:text"] },
+    { "name": "新闻素材", "fields": ["标题:text", "分类:select", "来源:text", "发布日期:date", "原文链接:url", "摘要:text", "学习关联:text", "状态:select"] },
+    { "name": "申请事项", "fields": ["项目名称:text", "路线:select", "截止日期:date", "状态:select", "材料清单:text", "下一步:text", "作品关联:url"] },
+    { "name": "健康记录", "private": true, "fields": ["记录名称:text", "日期:date", "类型:select", "内容:text", "备注:text", "允许AI读取:checkbox"] },
+    { "name": "Agent日志", "fields": ["请求摘要:text", "时间:date", "Agent:select", "回复摘要:text", "候选操作:text", "确认状态:select", "执行结果:text"] }
+  ]
+}
+

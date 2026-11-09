@@ -1,0 +1,7 @@
+.env.local
+config/bots.local.json
+node_modules
+tests
+*.log
+.git
+

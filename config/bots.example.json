@@ -1,0 +1,10 @@
+[
+  { "id": "lead", "name": "Kiya总管", "agentId": "lead", "appId": "", "appSecret": "", "groupMentionOnly": true },
+  { "id": "exam", "name": "考研主管", "agentId": "exam", "appId": "", "appSecret": "", "groupMentionOnly": true },
+  { "id": "english", "name": "英语主管", "agentId": "english", "appId": "", "appSecret": "", "groupMentionOnly": true },
+  { "id": "research", "name": "科研主管", "agentId": "research", "appId": "", "appSecret": "", "groupMentionOnly": true },
+  { "id": "skills", "name": "技能与作品集主管", "agentId": "skills", "appId": "", "appSecret": "", "groupMentionOnly": true },
+  { "id": "news", "name": "新闻研究主管", "agentId": "news", "appId": "", "appSecret": "", "groupMentionOnly": true },
+  { "id": "applications", "name": "申请主管", "agentId": "applications", "appId": "", "appSecret": "", "groupMentionOnly": true },
+  { "id": "health", "name": "健康主管", "agentId": "health", "appId": "", "appSecret": "", "groupMentionOnly": true, "privateRecommended": true }
+]

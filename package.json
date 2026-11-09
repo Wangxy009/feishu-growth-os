@@ -1,0 +1,17 @@
+{
+  "name": "feishu-growth-os",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Feishu-based personal AI team for My Growth OS",
+  "scripts": {
+    "start": "node src/server.js",
+    "check": "node --check src/server.js && node --check src/feishu.js && node --check src/long-connection.js && node --check src/assignment.js && node --check src/ai.js && node --check src/orchestrator.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.75.0"
+  }
+}
